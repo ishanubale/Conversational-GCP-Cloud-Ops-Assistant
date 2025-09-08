@@ -1,0 +1,61 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------------------------
+# Virtual Environments
+# ---------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ---------------------------
+# IDE / Editor
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# OS-specific
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Environment & Credentials
+# ---------------------------
+.env
+*.env
+serviceKey.json
+*.json   # prevent committing any service account keys
+
+# ---------------------------
+# Streamlit
+# ---------------------------
+.streamlit/
+
+# ---------------------------
+# FAISS / Vectorstores
+# ---------------------------
+*.faiss
+*.pkl
+*.db
+gcp_faiss_index/
+
+# ---------------------------
+# Logs & Temp files
+# ---------------------------
+*.log
+*.tmp
+*.bak
+
+# ---------------------------
+# Tests / Coverage
+# ---------------------------
+.coverage
+htmlcov/
+.pytest_cache/
